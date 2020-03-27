@@ -5,9 +5,11 @@ import { useSelector, useDispatch } from 'react-redux';
 import { getItems, deleteItem } from '../../actions/itemActions';
 
 const ShoppingList = () => {
+
     useEffect(() => {
         dispatch(getItems(items))
-    })
+    }, [])
+
     const items  = useSelector(state => state.item.items)
     const dispatch = useDispatch()
 

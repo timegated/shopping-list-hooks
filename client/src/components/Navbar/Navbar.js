@@ -15,7 +15,7 @@ const AppNavbar = () => {
                     <Collapse isOpen={isOpen} navbar>
                         <Nav className="ml-auto" navbar>
                             <NavItem>
-                                <NavLink href="https://github.com">
+                                < NavLink href = "https://github.com/timegated/shopping-list-hooks" >
                                     Github
                                 </NavLink>
                             </NavItem>
